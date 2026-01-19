@@ -6,3 +6,22 @@ h1 {
     color: darkorchid;
 }
 
+.header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.list {
+    border-width: 5px;
+    border-color: darkgreen;
+}
+
+.youtube {
+    color: chartreuse;
+}
+
+#sunrise {
+    &:hover {
+        text-shadow: 3px;
+    }
+}
+
