@@ -11,17 +11,14 @@ h1 {
 }
 
 .list {
-    border-width: 5px;
-    border-color: darkgreen;
+    border: 5px solid darkcyan;
 }
 
 .youtube {
-    color: chartreuse;
+    color:aliceblue;
 }
 
 #sunrise {
-    &:hover {
-        text-shadow: 3px;
-    }
+    font-family: 'Comic Sans MS';
 }
 
