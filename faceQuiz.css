@@ -1,0 +1,34 @@
+.face {
+    background-color: greenyellow;
+    margin: 10px;
+    width: 40%;
+    position: fixed;
+    height: 400px;
+}
+.eye {
+    background-color: white;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+.pupil {
+    background-color: black;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+}
+.mouth {
+    background-color: black;
+    margin: 20px 10px;
+    height: 200px;
+}
+.tooth {
+    display: inline-block;
+    background-color: white;
+    width:20px;
+    height: 20px;
+    margin: 8px;
+}
