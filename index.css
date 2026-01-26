@@ -7,18 +7,31 @@ h1 {
 }
 
 .header {
+    margin-left: 12%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
 }
 
 .list {
     border: 5px solid darkcyan;
+    padding: 30px;
+    font-size: small;
+    color:rgb(65, 51, 156);
 }
 
 .youtube {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
     color:aliceblue;
+    font-family: 'Algerian';
 }
 
 #sunrise {
     font-family: 'Comic Sans MS';
+    color: goldenrod;
+}
+.progressForm {
+    padding: 10px;
 }
 
