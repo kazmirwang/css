@@ -32,7 +32,8 @@ p {
 img {
     border-radius: 10px;
     border: 3px solid #606676;
+    transition: transform 3s ease;
     &:hover {
-        filter: saturate(1000);
+        transform: scale(5);
     }
 }
