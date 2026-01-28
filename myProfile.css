@@ -1,5 +1,38 @@
 body {
-    background: #FEF3E2, url("checker.png");
-    text-align: center;
+    background: url("betterChecker.png"), #FEF3E2;
     background-blend-mode: lighten;
+    text-align: center;
+    background-size: 50%;
+    background-repeat: round;
+}
+.heading {
+    font-family: 'Impact';
+    font-weight: 100;
+    color: #606676;
+}
+.headingChild {
+    border: 4px dashed #606676;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.subheading {
+    font-family: 'Comic Sans MS';
+    color: #708871;
+}
+.subheadingChild {
+    border: 2px dotted #BEC6A0;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+}
+p {
+    font-family: 'Comic Sans MS';
+    color: #708871;
+}
+img {
+    border-radius: 10px;
+    border: 3px solid #606676;
+    &:hover {
+        filter: saturate(1000);
+    }
 }
