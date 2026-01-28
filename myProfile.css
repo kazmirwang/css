@@ -1,0 +1,5 @@
+body {
+    background: #FEF3E2, url("checker.png");
+    text-align: center;
+    background-blend-mode: lighten;
+}
